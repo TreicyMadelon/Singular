@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "SF-Pro-Display-Regular";
+    src: local(SF-Pro-Display-Regular), url(../fonts/SF-Pro-Display-Regular.otf);
+ }
+
+ @font-face {
+    font-family: "SF-Pro-Display-Bold";
+    src: local(SF-Pro-Display-Bold), url(../fonts/SF-Pro-Display-Bold.otf);
+ }
+
+ @font-face {
+  font-family: "SF-Pro-Display-Light";
+  src: local(SF-Pro-Display-light), url(../fonts/SF-Pro-Display-light.otf);
+}
+
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+body{
+  background-color: #F8F8F8;
+}
+
+.header{
+    width: 100%;
+    height: 400px;
+    background: url("../img/fundo_topo.jpg") no-repeat center; 
+    background-size: cover;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  clear: both; 
+  padding-top: 0.5%;
+}
+
+.header_menu li{
+    list-style: none;
+    margin-right: 35px;
+    
+}
+
+#logo{
+  margin-right: 35px;
+  margin-top: -30px;
+  clear: both;
+}
+
+.header_menu li a{
+  color: #DFCFBF;
+  font-family: 'SF-Pro-Display-Bold','Roboto', sans-serif;
+  font-size: 0.8em;
+}
+
+.header_menu li a:hover{
+border-bottom: 2px solid;
+border-color: #DFCFBF;
+}
+
+
+.header_menu .current{
+  border-bottom: 2px solid;
+  border-color: #DFCFBF;
+}
+
+
+a:link { 
+text-decoration:none; 
+} 
+
+
+.social{
+  display: block;
+  float: right;
+  padding: 20px 20px;
+}
+
+.social a{
+  margin-right: 5px;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+/*  Texto Cartão */
+
+tab{
+  display: inline-block; 
+  margin-left: 20px; 
+}
+
+.titulo{
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  font-size: 1.9rem;
+  color: #95806A;
+  margin-top: -48%;
+  float: left;
+  text-align:center;
+  width: 100%;
+}
+
+.titulo_segundo{
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  font-size: 1.7rem;
+  color: #95806A;
+  margin-top: -48%;
+  float: left;
+  text-align:center;
+  width: 100%;
+}
+
+.sub_titulo{
+  font-family: 'SF-Pro-Display-regular','Roboto', sans-serif;
+  font-size: 0.8em;
+  color: #9e9e9e;
+  margin-top: -40%;
+  float: left;
+  text-align:center;
+  width: 100%;
+}
+
+
+.sub_titulo::after{
+  content: "  ";
+	display: block;
+	width: 85%;
+	height: 1.5px;
+  background: #9e9e9e;
+  margin: 12px auto 10px auto;
+	}
+
+
+  .texto_cartao{
+
+    font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #9e9e9e;
+    margin-top: -29%;
+    float: left;
+    width: 100%;
+  
+  }
+
+.quero{
+    display: block;
+    margin: 0 auto;
+    margin-top: -15%;
+  
+  }
+
+/* Introdução */
+
+.introducao{
+  padding-top: 0.5%;
+}
+
+.container_item_um{
+  display: block;
+  padding-top: 28%; /* tamanho da imagem */
+}
+
+.primeiro_esquerda{
+  float: left;
+  width: 49.80%;
+  background: url("../img/xicara_artesanal_home_cartao.jpg") no-repeat center; 
+  background-size: 100% 100%;
+}
+
+.primeiro_direita{
+  float: right;
+  width: 49.80%;
+  background: url("../img/xicara_artesanal_home.jpg") no-repeat center; 
+  background-size: 100% 100%;
+}
+
+
+ .container_item_dois{
+   display: block;
+   margin-top: 0.5%;
+   padding-top: 28%;
+ }
+ 
+
+.segundo_foto_esquerda{
+  float: left;
+  width: 49.80%;
+  background: url("../img/xicara_personalizada_home.jpg") no-repeat center; 
+  background-size: 100% 100%;
+
+}
+
+.segundo_cartao_direita{
+  float: right;
+  width: 49.80%;
+  background: url("../img/xicara_personalizada_home_cartao.jpg") no-repeat center; 
+  background-size: 100% 100%;
+}
+
+.btn_padrao{
+  font-family: 'SF-Pro-Display-Bold','Roboto', sans-serif;
+  text-transform: uppercase;
+  background-color: #95806A;
+  color:  #f8f8f8;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 40% ;
+  height: 40px;
+}
+
+/* Portfólio */
+
+#titulo_portfolio{
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #95806A;
+  font-size: 3em;
+  text-align: center;
+  float: left;
+  text-align:center;
+  width: 100%;
+}
+
+.container_portfolio{
+  display: block;
+   padding-top: 50%;
+}
+
+.portfolio_foto_esquerda{
+  float: left;
+  width: 49.80%;
+  background: url("../img/portfolio_esquerda.jpg") no-repeat center; 
+  background-size: 100% ;
+}
+
+.portfolio_foto_direita{
+  float: right;
+  width: 49.80%;
+  background: url("../img/portfolio_direita.jpg") no-repeat center; 
+  background-size: 120% 100%;
+}
+
+.portfolio_foto_toda{
+  margin-top: 0.5%;
+  display: block;
+  padding-top: 50%;
+  float: left;
+  width: 100%;
+  background: url("../img/portfolio_toda.jpg") no-repeat center; 
+  background-size: cover;
+}
+
+/* Footer */
+
+.footer_container{
+  margin-top: 0.5%;
+  display: block;
+  float: left;
+  background-color: #95806A;
+  width: 100%;
+  padding-top: 10%;
+  justify-content: center;
+  
+}
+
+h4{
+    font-family: 'SF-Pro-Display-bold','Roboto', sans-serif;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #f8f8f8;
+    margin-top: -40%;
+    float: left;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  
+  
+.titulo{
+  font-size: 1.5em;
+ 
+}
+.header{
+  height: 300px;
+
+}
+
+  .btn{
+    font-size: 1.4em;
+    width: 40% ;
+    height: 50px ;
+  }
+}
