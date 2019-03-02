@@ -138,8 +138,7 @@ tab{
 	}
 
 
-  .texto_cartao{
-
+.texto_cartao{
     font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
     font-size: 0.9em;
     text-align: center;
@@ -147,8 +146,7 @@ tab{
     margin-top: -29%;
     float: left;
     width: 100%;
-  
-  }
+}
 
 .quero{
     display: block;
@@ -160,7 +158,7 @@ tab{
 /* Introdução */
 
 .introducao{
-  padding-top: 0.5%;
+  padding-top: 0.3%;
 }
 
 .container_item_um{
@@ -185,7 +183,7 @@ tab{
 
  .container_item_dois{
    display: block;
-   margin-top: 0.5%;
+   margin-top: 0.3%;
    padding-top: 28%;
  }
  
@@ -251,7 +249,7 @@ tab{
 }
 
 .portfolio_foto_toda{
-  margin-top: 0.5%;
+  margin-top: 0.3%;
   display: block;
   padding-top: 50%;
   float: left;
@@ -262,26 +260,87 @@ tab{
 
 /* Footer */
 
-.footer_container{
-  margin-top: 0.5%;
+#footer_container{
+  margin-top: 0.3%;
   display: block;
   float: left;
   background-color: #95806A;
   width: 100%;
-  padding-top: 10%;
-  justify-content: center;
-  
+  padding-top: 7%;
+  text-align: center;
 }
 
-h4{
+#footer_central{
+ 
+  display: flex;
+  margin: 0 auto;
+  margin-top: -6%;
+  margin-bottom: 5px;
+  width: 50%;
+  padding-top: 7%
+ 
+}
+
+.footer_menu_grid{
+ 
+  display: inline-block ;
+  float: left;
+  margin-left: 6%;
+  margin-top: -14%;
+  min-width: 20%;
+  max-width: 35%;
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+
+.footer_titulo{
+    margin-top: -60%;
     font-family: 'SF-Pro-Display-bold','Roboto', sans-serif;
-    font-size: 0.3rem;
-    text-align: center;
+    font-size: 0.9rem;
+    text-align: left;
     color: #f8f8f8;
-    margin-top: -40%;
     float: left;
     width: 100%;
 }
+#titulo_endereco{
+  margin-top: -40% !important;
+  
+}
+
+#footer_menu{
+  text-align:  left;
+  margin-top: -38%;
+  float: left;
+  width: 100%;
+}
+
+.footer_menu_style{
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #f8f8f8;
+}
+
+#footer_endereco{
+  margin-top: -22%;
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #f8f8f8;
+  text-align: left;
+}
+
+#footer_social{
+  margin-top: -50%;
+  text-align: left;
+}
+
+#footer_direitos{
+  margin-top: 5%;
+  font-family: 'SF-Pro-Display-Light','Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #f8f8f8;
+  text-align: left;
+}
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
