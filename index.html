@@ -24,15 +24,33 @@
                         <a href="index.html"><img  src="img/pinterest.png" alt="Pinterest"  style="width:13px;height:13px;"></a>
         </div>
 
-   <div class="container">
+   <div id="container">
            <nav class="header_menu">
             <li><a class="current" href="index.html">Início</a></li>
             <li><a  href="index.html">Nossa história</a></li>
-            <a href="index.html"><img id="logo" src="img/logo_singular.png" alt="Singular" style="width:80px;height:80px;"></a>
+            <a href="index.html"><img id="logo" src="img/logo_singular.png" alt="Singular"></a>
             <li><a  href="index.html">Orçamento</a></li>
             <li><a  href="index.html">Contato</a></li>
            </nav>
+
+           <div class="menu_toggle"><img class="menu_mobile" src="img/menu-button.png"></div>
+           <nav class="site_nav">
+                <ul>
+                <li><a  href="index.html">Início</a></li>
+                <li><a  href="index.html">Nossa história</a></li>
+                <li><a  href="index.html">Orçamento</a></li>
+                <li><a href="index.html">Contato</a></li>
+                </ul>
+               </nav>
    </div>
+   <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+   <script type="text/javascript">
+    $('.menu_toggle').click(function() {
+    $('.site_nav').toggleClass('site-nav--open', 500);
+    $(this).toggleClass('open');
+    })
+   </script>
+
  </header>
 
  
@@ -71,7 +89,7 @@
 		<div id="footer_container">
                         <div id="footer_central">
                             <div class="footer_menu_grid">
-                            <li><h4 class="footer_titulo">Menu</h4></li>
+                            <li><h4 class="footer_titulo" id="footer_titulo_menu">Menu</h4></li>
                             <nav id="footer_menu">
                             <li><a class="footer_menu_style" href="index.html">Início</a></li>
                             <li><a class="footer_menu_style" href="index.html">Nossa história</a></li>
@@ -81,10 +99,10 @@
                             </div>
 
                             <div class="footer_menu_grid">
-                                <li><h4 class="footer_titulo" id="titulo_endereco">Endereço</h4></li> 
+                                <li><h4 class="footer_titulo" id="footer_titulo_endereco">Endereço</h4></li> 
                                 <li><p id="footer_endereco">Praia de Botafogo, 000, 1º andar<br>
-                                                     Botafogo - Rio de Janeiro - RJ<br>
-                                                     00000-000</p></li>
+                                                            Botafogo - Rio de Janeiro - RJ<br>
+                                                            00000-000</p></li>
                             </div>
 
                             <div class="footer_menu_grid">
@@ -109,6 +127,9 @@
 
         </footer>
 
+
+
+      
 
 </body>
 
