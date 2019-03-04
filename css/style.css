@@ -501,7 +501,7 @@ tab{
   }
 
   .footer_menu_style{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #footer_endereco{
@@ -534,7 +534,7 @@ tab{
   }
 }
 
-@media only screen and (max-width: 668px){
+@media only screen  and (max-width: 668px){
 
   .header{
     height: 38vw;
@@ -623,9 +623,7 @@ tab{
   }
 
   .primeiro_esquerda{
-   
    width: 100%;
-
   }
 
   .primeiro_direita{
@@ -664,11 +662,25 @@ tab{
   .quero{
     margin-top: -14%;
   }
-   
+ 
   .titulo_segundo{
     margin-top: -43%;
     font-size: 5vw;
   }
+
+  #footer_central{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #footer_central{
+    justify-content: center;
+  }
+  
+
+
+
+  
 
 
 }
@@ -681,6 +693,42 @@ tab{
 
   .site_nav li:last-child{
     padding-bottom: 100%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 482px){
+
+  .titulo{
+    font-size: 5.5vw !important;
+  }
+
+  .sub_titulo{
+    margin-top: -36.7% !important;
+    font-size: 0.7em !important;
+  }
+
+  #footer_central{
+    margin-top: -3% !important;
+   
+  }
+
+  .footer_menu_grid{
+    margin-top: -9% !important;
+  }
+
+  #footer_social{
+    margin-top: -48% !important;
+  }
+
+  #footer_titulo_endereco{
+    margin-top: -38% !important;
+  }
+
+  #footer_endereco{
+    font-size: 0.75rem;
   }
 
 }
