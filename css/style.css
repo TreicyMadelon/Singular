@@ -152,7 +152,7 @@ tab{
 	width: 85%;
 	height: 1.5px;
   background: #9e9e9e;
-  margin: 12px auto 10px auto;
+  margin: 10px auto 10px auto;
 	}
 
 
@@ -323,11 +323,11 @@ tab{
     width: 100%;
 }
 #footer_titulo_menu{
-  margin-top: -60%;
+  margin-top: -61%;
 }
 
 #footer_titulo_endereco{
-  margin-top: -40% ;
+  margin-top: -39% ;
   
 }
 
@@ -392,9 +392,34 @@ tab{
   margin-top: -5%;
  }
 
+ .quero{
+   margin-top: -16%
+ }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen  and (min-width: 669px) and (max-width: 767px) {
+
+  .header{
+    height: 38vw;
+  }
+
+  .sub_titulo{
+    margin-top: -40.5%;
+  }
+
+  .texto_cartao{
+    margin-top: -30%;
+    font-size: 1.6vw;
+  }
+
+
+  .btn_padrao{
+    height: 4.5vw;
+  }
+
+
+  /*Menu responsivo */
 
   #logo{
     display: none;
@@ -424,9 +449,9 @@ tab{
     position: absolute;
     display: block;
     background-color: #DFCFBF;
-    width: 20%;
+    width: 100%;
     clip-path: circle(0px at top left);
-    transition: clip-path ease-in-out 700ms;
+    transition: clip-path ease-in-out 200ms;
   }
 
   .site_nav a{
@@ -458,32 +483,14 @@ tab{
   
   }
 
-
  .header_menu li {
   display: none;
  }
 
-  .header{
-    height: 290px;
-  }
+ /* Fim menu responsivo */
 
 
-  .titulo_segundo{
-    font-size: 2.3vw;
-  }
-  .sub_titulo{
-    font-size: 0.7em;
-  }
 
-  .texto_cartao{
-    font-size: 1.5vw;
-   }
-
-   .btn_padrao{
-    width: 40% ;
-    height: 35px;
-
-   }
 
   #footer_titulo_menu{
     margin-top: -50%;
@@ -491,6 +498,10 @@ tab{
   
   #footer_menu{
     margin-top: -20%;
+  }
+
+  .footer_menu_style{
+    font-size: 0.7rem;
   }
 
   #footer_endereco{
@@ -503,7 +514,15 @@ tab{
   }
 
   #footer_social{
-    margin-top: -35% ;
+    display: flex;
+    margin-top: -40% ;
+    margin-bottom: 10%;
+    width: 15px;
+    height: 15px;
+  }
+
+  #footer_direitos{
+    font-size: 0.7rem;
   }
 
   #footer_central{
@@ -513,4 +532,155 @@ tab{
   .footer_menu_grid{
     max-width: 40%;
   }
+}
+
+@media only screen and (max-width: 668px){
+
+  .header{
+    height: 38vw;
+  }
+
+  /*Menu responsivo */
+
+  #logo{
+    display: none;
+  }
+
+  .menu_toggle{
+    margin-top: -30px;
+    margin-left: 15px;
+    width: 100%;
+    float: left;
+    display: block;
+  }
+
+  .menu_toggle img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .site-nav--icon {
+    display: none;
+  }
+  
+
+  .site_nav{
+    float: left;
+    position: absolute;
+    display: block;
+    background-color: #DFCFBF;
+    width: 100%;
+    clip-path: circle(0px at top left);
+    transition: clip-path ease-in-out 700ms;
+  }
+
+  .site_nav a{
+    font-family: 'SF-Pro-Display-Bold','Roboto', sans-serif;
+    font-size: 1em;
+    color: #F8F8F8;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: block;
+    margin-left: 20px;
+  }
+
+  .site_nav li:hover, .site_nav li:focus{
+    background-color: #95806A;
+  }
+
+  .site_nav ul{
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .site_nav li{
+    border-bottom: 1px solid #F8F8F8;
+  }
+
+  .site-nav--open {
+    clip-path: circle(250% at top left);
+  
+  }
+
+ .header_menu li {
+  display: none;
+ }
+
+ /* Fim menu responsivo */
+
+
+ /* Introdução */
+
+  .container_item_um{
+    display: block;
+    padding-top: 50%; /* tamanho da imagem */
+  }
+  .container_item_dois{
+    display: block;
+    padding-top: 50%;
+  }
+
+  .primeiro_esquerda{
+   
+   width: 100%;
+
+  }
+
+  .primeiro_direita{
+    margin-top: 0.4%;
+    width: 100%;
+  }
+  
+  .segundo_foto_esquerda{
+    width: 100%;
+  }
+  .segundo_cartao_direita{
+    margin-top: 0.4%;
+    width: 100%;
+  }
+
+  .titulo{
+    font-size: 6vw;
+    margin-top: -44%;
+  }
+ 
+  .sub_titulo{
+    margin-top: -35%;
+    font-size: 1em;
+  }
+
+  .texto_cartao{
+    margin-top: -28%;
+    font-size: 3vw;
+  }
+
+  .btn_padrao{
+    font-size: 4vw;
+    height: 8vw;
+  }
+
+  .quero{
+    margin-top: -14%;
+  }
+   
+  .titulo_segundo{
+    margin-top: -43%;
+    font-size: 5vw;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px){
+  .site_nav a{
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+  }
+
+  .site_nav li:last-child{
+    padding-bottom: 100%;
+  }
+
 }
