@@ -254,21 +254,29 @@ tab{
    padding-top: 50%;
 }
 
-.portfolio_foto_esquerda{
+.container_portfolio_toda{
+  margin-top: 0.3%;
+  display: block;
+  padding-top: 50%;
+  float: left;
+  width: 100%;
+}
+
+.portfolio_foto_esquerda_um{
   float: left;
   width: 49.80%;
   background: url("../img/portfolio_esquerda.jpg") no-repeat center; 
   background-size: 100% ;
 }
 
-.portfolio_foto_direita{
+.portfolio_foto_direita_um{
   float: right;
   width: 49.80%;
   background: url("../img/portfolio_direita.jpg") no-repeat center; 
   background-size: 120% 100%;
 }
 
-.portfolio_foto_toda{
+.portfolio_foto_toda_um{
   margin-top: 0.3%;
   display: block;
   padding-top: 50%;
@@ -276,6 +284,83 @@ tab{
   width: 100%;
   background: url("../img/portfolio_toda.jpg") no-repeat center; 
   background-size: cover;
+}
+
+.portfolio_foto_esquerda_dois{
+  float: left;
+  width: 49.80%;
+  background: url("../img/portfolio_esquerda_dois.jpg") no-repeat center; 
+  background-size: 100% ;
+}
+
+.portfolio_foto_direita_dois{
+  float: right;
+  width: 49.80%;
+  background: url("../img/portfolio_direita_dois.jpg") no-repeat center; 
+  background-size: 100% 150%;
+}
+
+.portfolio_foto_toda_dois{
+  margin-top: 0.3%;
+  display: block;
+  padding-top: 50%;
+  float: left;
+  width: 100%;
+  background: url("../img/portfolio_toda_dois.jpg") no-repeat center; 
+  background-size: cover;
+}
+
+/*Plugin de Slide*/
+
+.rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+ .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+
+.rslides_tabs {
+ 
+	text-align: center;
+	margin-top: 1%;
+}
+
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs li a{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #95806A;
+	color: #95806A;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+	background: #DFCFBF;
+	color: #DFCFBF;
 }
 
 /* Footer */

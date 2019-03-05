@@ -3,6 +3,7 @@
 <HTML>
 
 <head>
+
 <meta charset="utf-8">
 <title>Singular</title> 
 
@@ -43,15 +44,8 @@
                 </ul>
                </nav>
    </div>
-   <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-   <script type="text/javascript">
-    $('.menu_toggle').click(function() {
-    $('.site_nav').toggleClass('site-nav--open', 500);
-    $(this).toggleClass('open');
-    })
-   </script>
 
- </header>
+</header>
 
  
         <section class="introducao">
@@ -80,9 +74,22 @@
 
         <section class="portfolio">
                 <h1 id="titulo_portfolio">P o r t f ó l i o</h1>
-                <div class="container_portfolio portfolio_foto_esquerda"></div>
-                <div class="container_portfolio portfolio_foto_direita"></div>
-                <div class="portfolio_foto_toda"></div>
+                <ul class="portfolio_lista rslides_portfolio">
+
+		<li>
+                <div class="container_portfolio portfolio_foto_esquerda_um"></div>
+                <div class="container_portfolio portfolio_foto_direita_um"></div>
+                <div class="container_portfolio_toda portfolio_foto_toda_um"></div>
+                </li>
+
+                <li>
+                <div class="container_portfolio portfolio_foto_esquerda_dois"></div>
+                <div class="container_portfolio portfolio_foto_direita_dois"></div>
+                <div class="container_portfolio_toda portfolio_foto_toda_dois"></div>
+                </li>
+              
+
+        </ul>
         </section>
           
         <footer>
@@ -132,7 +139,12 @@
 
 
 
-      
+ <!-- JavaScript -->
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/libs/jquery-1.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<!-- JavaScript -->
 
 </body>
 
