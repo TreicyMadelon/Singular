@@ -58,8 +58,8 @@ body{
 /*  Menu */
 
 #logo{
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   margin-right: 35px;
   margin-top: -30px;
   clear: both;
@@ -88,7 +88,7 @@ body{
 .header_menu li a, .header_menu_interno li a{
   color: #DFCFBF;
   font-family: 'SF-Pro-Display-Bold','Roboto', sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .header_menu li a:hover, .header_menu_interno li a:hover{
@@ -488,6 +488,11 @@ tab{
 
 
 @media only screen  and (max-width:1167px){
+  #logo{
+    width: 80px;
+    height: 80px;
+  }
+
   .texto_alinhado{
     font-size: 1.5vw;
   }
@@ -497,9 +502,9 @@ tab{
   .header{ height: 38vw;}
   
 #logo{
-    margin-top: -40px;
-    width: 65px;
-    height: 65px;
+    margin-top: -30px;
+    width: 75px;
+    height: 75px;
 }
 
 .titulo_segundo{
