@@ -25,11 +25,20 @@ body{
   background-color: #F8F8F8;
 }
 
+
+/*  Header  */
+
 .header{
     width: 100%;
     height: 38vw;
     background: url("../img/fundo_topo.jpg") no-repeat center; 
     background-size: cover;
+}
+
+.header_interno{
+  width: 100%;
+  padding-bottom: 3%;
+
 }
 
 #container{
@@ -45,18 +54,8 @@ body{
   display: none;
 }
 
-.header_menu {
-  display: flex;
-  justify-content: center;
-  clear: both; 
-  padding-top: 0.5%;
-}
 
-.header_menu li{
-    list-style: none;
-    margin-right: 35px;
-    
-}
+/*  Menu */
 
 #logo{
   width: 80px;
@@ -66,19 +65,39 @@ body{
   clear: both;
 }
 
-.header_menu li a{
+.header_menu,  {
+  display: flex;
+  justify-content: center;
+  clear: both; 
+  padding-top: 0.5%;
+}
+
+.header_menu_interno {
+  display: flex;
+  justify-content: center;
+  clear: both; 
+  padding-top: 0.5%;
+  margin-left: 36px;
+}
+
+.header_menu li, .header_menu_interno li{
+    list-style: none;
+    margin-right: 35px;
+}
+
+.header_menu li a, .header_menu_interno li a{
   color: #DFCFBF;
   font-family: 'SF-Pro-Display-Bold','Roboto', sans-serif;
   font-size: 0.8em;
 }
 
-.header_menu li a:hover{
+.header_menu li a:hover, .header_menu_interno li a:hover{
 border-bottom: 2px solid;
 border-color: #DFCFBF;
 }
 
 
-.header_menu .current{
+.header_menu .current, .header_menu_interno .current{
   border-bottom: 2px solid;
   border-color: #DFCFBF;
 }
@@ -158,12 +177,21 @@ tab{
 
 .texto_cartao{
     font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-align: center;
     color: #9e9e9e;
-    margin-top: -29%;
+    margin-top: -31%;
     float: left;
     width: 100%;
+}
+
+.texto_alinhado{
+  word-break: normal;
+  text-align: left !important;
+  font-size: 1.1em;
+  width: 40vw;
+  margin-left: 8%;
+  margin-top: -34%;
 }
 
 .quero{
@@ -198,6 +226,19 @@ tab{
   background-size: 100% 100%;
 }
 
+.primeiro_esquerda_nossa{
+  float: left;
+  width: 49.80%;
+  background: url("../img/nossa_historia_2.jpg") no-repeat center; 
+  background-size: 100% 100%;
+}
+
+.primeiro_direita_nossa{
+  float: right;
+  width: 49.80%;
+  background: url("../img/nossa_historia.jpg") no-repeat center; 
+  background-size: 100% 230%;
+}
 
  .container_item_dois{
    display: block;
@@ -211,7 +252,6 @@ tab{
   width: 49.80%;
   background: url("../img/xicara_personalizada_home.jpg") no-repeat center; 
   background-size: 100% 100%;
-
 }
 
 .segundo_cartao_direita{
@@ -373,7 +413,16 @@ tab{
   width: 100%;
   padding-top: 6%;
   text-align: center;
-  
+}
+
+#footer_container_interno{
+  margin-top: 5%;
+  display: block;
+  float: left;
+  background-color: #95806A;
+  width: 100%;
+  padding-top: 6%;
+  text-align: center;
 }
 
 #footer_grid{
@@ -444,6 +493,15 @@ tab{
 
 /* Responsivo */
 
+
+@media only screen  and (max-width:1167px){
+  .texto_alinhado{
+
+    font-size: 1.5vw;
+  
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .header{ height: 38vw;}
   
@@ -459,8 +517,15 @@ tab{
 }
 
  .texto_cartao{
+
   font-size: 1.5vw;
  }
+
+ .texto_alinhado{
+  margin-top: -32%;
+  font-size: 1.3vw;
+
+}
 
  .sub_titulo{
    font-size: 0.7em;
@@ -471,6 +536,7 @@ tab{
  }
 
 }
+
 
 @media only screen  and (min-width: 669px) and (max-width: 767px) {
 
