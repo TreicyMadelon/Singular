@@ -371,7 +371,7 @@ tab{
   float: left;
   background-color: #95806A;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 6%;
   text-align: center;
   
 }
@@ -381,10 +381,10 @@ tab{
   justify-content: center;
   display: flex;
   margin: 0 auto;
-  margin-top: -12%;
+  margin-top: -10.5%;
   margin-bottom: 5px;
   width: 80%;
-  padding-top: 11%
+  padding-top: 15%
 
 }
 
@@ -436,7 +436,7 @@ tab{
 
 .footer_texto{
   font-family: 'SF-Pro-Display-regular','Roboto', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #f8f8f8;
 }
 
