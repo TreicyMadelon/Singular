@@ -60,9 +60,15 @@
            <label for="telefone">Telefone</label>
 	   <input type="text" id="telefone">
 	   <label for="espec">Especificações</label>
-	   <textarea id="espec"></textarea>
+           <textarea id="espec"></textarea>
+           <label for="espec">Selecionar arte</label>
+           <input type="file" name="myImage" accept="image/*" />
+           <input type="radio" name="tipo" id="xicara_artesanal" value="artesanal" checked>
+           <label for="xicara_artesanal"><span></span>Artesanal</label>
+           <input type="radio" name="tipo" id="xicara_personalizada"  value="personalizada">
+           <label for="xicara_personalizada"><span></span>Personalizada</label>
 
-        <button type="button" class="btn_padrao btn_formulario">Orçamento</button>  
+        <button type="button" class="btn_padrao btn_formulario">Enviar</button>  
 
          </div>
           <div class="container_item_form_um item_direita_orcamento_um">
