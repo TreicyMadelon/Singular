@@ -8,6 +8,7 @@
 <title>Orçamento</title> 
 
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery-filestyle.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -58,11 +59,11 @@
            <label for="email">E-mail</label>
            <input type="text" id="email">
            <label for="telefone">Telefone</label>
-	   <input type="text" id="telefone">
-	   <label for="espec">Especificações</label>
+	     <input type="text" id="telefone">
+	     <label for="espec">Especificações</label>
            <textarea id="espec"></textarea>
-           <label for="espec">Selecionar arte</label>
-           <input type="file" name="myImage" accept="image/*" />
+           <label for="arte">Selecionar arte</label>
+           <input type="file" class="jfilestyle" data-inputSize="32vw" data-text="Escolher arquivo..." name="myImage" accept="image/*" />
            <input type="radio" name="tipo" id="xicara_artesanal" value="artesanal" checked>
            <label for="xicara_artesanal"><span></span>Artesanal</label>
            <input type="radio" name="tipo" id="xicara_personalizada"  value="personalizada">
@@ -134,6 +135,7 @@
 <script src="js/libs/jquery-1.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery-filestyle.js"></script>
 <!-- JavaScript -->
 
 </body>

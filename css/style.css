@@ -279,15 +279,14 @@ tab{
 
 .container_item_form_um{
   display: block;
-  padding-top: 45%;
+  padding-top: 47%;
   margin-top: 0.3vw;
   
 }
 
 .item_esquerda_form_um{
   float: left;
-  width: 50.13%;
-  margin-left: -3px;
+  width: 49.80%;
   box-shadow:inset 0px 0px 0px 3px #DFCFBF;
   -webkit-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
   -moz-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
@@ -302,7 +301,7 @@ tab{
 
 .item_esquerda_orcamento_dois{
   float: left;
-  width: 50%;
+  width: 49.80%;
   background: url("../img/segunda_orçamento_esquerda.jpg") no-repeat center; 
   background-size: cover;
 }
@@ -321,19 +320,19 @@ tab{
 /*  Formulario */
 
 .titulo_form{
-  margin-top: -88%;
+  margin-top: -92%;
 }
 
 .sub_titulo_form{
-  margin-top: -80%;
+  margin-top: -84%;
 }
 
 .formulario{
   text-align: left ;
   width: 42vw;
   margin-left: 8%;
-  margin-top: -74%;
-  display: block;
+  margin-top: -78%;
+ 
 }
 
 .formulario label{
@@ -341,18 +340,18 @@ tab{
 	font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
   font-size: 1.5vw;
   text-align: left;
-  color: #9e9e9e;
+  color: #9e9e9e; 
   	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 4px;
 }
 
 .formulario input {
-  display: block;
+
 	width: 100%;
 	border: 2px solid #95806A;
 	background: none;
-	padding: 7px 10px;
+	padding: 0.2vw 10px;
 	margin-bottom: 10px;
 	outline: none;
 	font-size: 14px;
@@ -364,8 +363,7 @@ tab{
 	width: 100%;
 	border: 2px solid #95806A;
 	background: none;
-	padding: 7px 10px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	outline: none;
 	font-size: 14px;
 	font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
@@ -409,8 +407,8 @@ input[type="radio"]:checked + label span {
   display: block;
   float: right;
   right: 0;
-  margin-top: 2%;
-  margin-bottom: 3%;
+  margin-top: -5%;
+  height: 4vw;
 }
 
 .texto_orcamento_item{
