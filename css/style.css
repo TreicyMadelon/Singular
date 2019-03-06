@@ -222,29 +222,6 @@ tab{
   padding-top: 28%; /* tamanho da imagem */
 }
 
-.container_item_form_um{
-  display: block;
-  padding-top: 45%;
-  
-}
-
-.item_esquerda_form_um{
-  float: left;
-  width: 50.13%;
-  margin-left: -3px;
-  box-shadow:inset 0px 0px 0px 3px #DFCFBF;
-  -webkit-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
-  -moz-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
-
-
-}
-
-.item_direita_orcamento_um{
-  float: right;
-  width: 49.80%;
-  background: url("../img/primeira_orçamento_direita.jpg") no-repeat center; 
-  background-size: cover;
-  }
 
 .primeiro_esquerda{
   float: left;
@@ -293,6 +270,45 @@ tab{
   width: 49.80%;
   background: url("../img/xicara_personalizada_home_cartao.jpg") no-repeat center; 
   background-size: 100% 100%;
+}
+
+
+.container_item_form_um{
+  display: block;
+  padding-top: 45%;
+  margin-top: 0.3vw;
+  
+}
+
+.item_esquerda_form_um{
+  float: left;
+  width: 50.13%;
+  margin-left: -3px;
+  box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+  -webkit-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+  -moz-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+}
+
+.item_direita_orcamento_um{
+  float: right;
+  width: 49.80%;
+  background: url("../img/primeira_orçamento_direita.jpg") no-repeat center; 
+  background-size: cover;
+  }
+
+.item_esquerda_orcamento_dois{
+  float: left;
+  width: 50%;
+  background: url("../img/segunda_orçamento_esquerda.jpg") no-repeat center; 
+  background-size: cover;
+}
+
+
+.item_direita_orcamento_dois{
+  float: right;
+  width: 49.80%;
+  background: url("../img/segunda_orçamento_direita.jpg") no-repeat center; 
+  background-size: cover;
 }
 
 .btn_padrao{
@@ -359,6 +375,7 @@ tab{
   display: block;
   margin: 0 auto;
   margin-top: 2%;
+  margin-bottom: 3%;
 }
 
 .texto_orcamento_item{
@@ -641,6 +658,71 @@ tab{
   padding-top: 35%; /* tamanho da imagem */
 }
 
+
+/*  Formulario */
+
+.formulario{
+  text-align: left ;
+  width: 42vw;
+  margin-left: 8%;
+  margin-top: -70%;
+  display: block;
+}
+
+.formulario label{
+	display: block;
+	font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  color: #9e9e9e;
+  font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 2px;
+}
+
+.formulario input {
+  display: block;
+	width: 100%;
+	border: 2px solid #95806A;
+	background: none;
+	padding: 5px 8px;
+	margin-bottom: 6px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
+}
+
+.formulario textarea {
+	display: block;
+	width: 100%;
+	height: 100px;
+	border: 2px solid #95806A;
+	background: none;
+	padding: 5px 8px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
+}
+
+.btn_formulario{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.texto_orcamento_item{
+  position: absolute;
+  z-index: 99999;
+  font-family: 'SF-Pro-Display-light','Roboto', sans-serif;
+  font-size: 0.9vw;
+  text-align: center;
+  color: #DFCFBF;
+  margin-top: -44%;
+  width: 49.80%;
+ 
+}
 
 
 }
