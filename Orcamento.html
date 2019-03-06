@@ -5,7 +5,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>Nossa História</title> 
+<title>Orçamento</title> 
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -26,9 +26,9 @@
    <div id="container">
            <nav class="header_menu_interno">
             <li><a href="index.html">Início</a></li>
-            <li><a class="current" href="index.html">Nossa história</a></li>
+            <li><a  href="index.html">Nossa história</a></li>
             <a href="index.html"><img id="logo" src="img/logo_singular.png" alt="Singular"></a>
-            <li><a  href="index.html">Orçamento</a></li>
+            <li><a  class="current" href="index.html">Orçamento</a></li>
             <li><a  href="index.html">Contato</a></li>
            </nav>
 
@@ -48,17 +48,26 @@
  
         <section class="introducao">
                 
-         <div class="container_item_nossa item_esquerda_nossa">
-         <p class="titulo titulo_nossa">N O S S A <tab>H I S T Ó R I A</p>
-         <p class="sub_titulo sub_titulo_nossa">ONDE TUDO COMEÇOU</p>
-         <p class="texto_cartao texto_alinhado">Tudo começou com a vontade de transformar cada momento em algo especial.
-                                                Em um quintal no Rio de Janeiro, numa manhã quente de Dezembro de 2010, 
-                                                próximo da virada do ano, onde podíamos focar num novo começo e
-                                                criar coisas incríveis, surgiu o <b>Singular</b> para inovar sua forma de ver
-                                                e usar xícaras em sua vida  </p>
-        <button type="button" class="btn_padrao quero">Orçamento</button>  
+         <div class="container_item_form_um item_esquerda_form_um">
+         <p class="titulo titulo_form">O R Ç A M E N T O</p>
+         <p class="sub_titulo sub_titulo_form">COR, BORDA, TIPO E ESTAMPA DO SEU JEITO</p>
+         
+         <form id="form_orcamento" class="formulario" >
+           <label  for="nome">Nome</label>
+           <input  type="text" id="nome">
+           <label for="email">E-mail</label>
+           <input type="text" id="email">
+           <label for="telefone">Telefone</label>
+	   <input type="text" id="telefone">
+	   <label for="espec">Especificações</label>
+	   <textarea id="espec"></textarea>
+
+        <button type="button" class="btn_padrao btn_formulario">Orçamento</button>  
+
          </div>
-          <div class="container_item_nossa item_direita_nossa"></div>
+          <div class="container_item_form_um item_direita_orcamento_um">
+                <p class="texto_orcamento_item">S U A &nbsp; X Í C A R A</p>
+          </div>
         </section>
 
     
