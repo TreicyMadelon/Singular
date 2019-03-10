@@ -25,6 +25,7 @@
 
 body{
   background-color: #F8F8F8;
+  overflow-x: hidden; 
 }
 
 
@@ -278,9 +279,11 @@ tab{
 
 
 .container_item_form_um{
+  width: 100%;
   display: block;
   padding-top: 47%;
   margin-top: 0.3vw;
+  min-height: 600px;
   
 }
 
