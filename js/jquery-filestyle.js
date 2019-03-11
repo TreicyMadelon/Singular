@@ -354,7 +354,7 @@
         'input': true,
         'disabled': false,
         'buttonBefore': false,
-        'inputSize': '200px',
+       
         'placeholder': '',
         'dragdrop': true,
         'theme': 'default',

@@ -25,6 +25,7 @@ div.jfilestyle input {
 	font-size: 14px;
 	color: #8d8d8d;
 	cursor: default;
+	width: 286px;
 
 }
 
@@ -112,4 +113,18 @@ div.jfilestyle.jfilestyle-theme-asphalt label {
 	border-color: #435673;
 	background: #435673;
 	color: #fff;
+}
+
+@media only screen  and (max-width: 668px){
+
+
+	div.jfilestyle input {
+
+	width: 63vw;
+
+	}
+
+	div.jfilestyle label{
+		font-size: 2vw;
+	}
 }

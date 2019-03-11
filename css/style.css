@@ -80,7 +80,9 @@ body{
   justify-content: center;
   clear: both; 
   padding-top: 0.5%;
-  margin-left: 36px;
+  width: 90%;
+  margin: 0 6.2%;
+
 }
 
 .header_menu li, .header_menu_interno li{
@@ -277,6 +279,8 @@ tab{
   background-size: 100% 100%;
 }
 
+
+/* Orçamento container*/
 
 .container_item_form_um{
   width: 100%;
@@ -664,6 +668,12 @@ input[type="radio"]:checked + label span {
     height: 75px;
 }
 
+.header_menu_interno {
+  margin: 0 6.8%;
+
+}
+
+
 .titulo_segundo{
   font-size: 2.3vw;
 }
@@ -963,6 +973,10 @@ input[type="radio"] {
     height: 38vw;
   }
 
+  .btn_padrao{
+    width: 25vw !important;
+  }
+
   /*Menu responsivo */
 
   #logo{
@@ -1033,9 +1047,75 @@ input[type="radio"] {
 
  /* Fim menu responsivo */
 
+  /* Orçamento */
+
  input[type="radio"] {
   display:none;
-}
+ }
+ 
+ .item_esquerda_form_um{
+    float: left;
+    width: 100%;
+    padding-top: 90%;
+    margin-bottom: 0.3%;
+    box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+    -webkit-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+    -moz-box-shadow:inset 0px 0px 0px 3px #DFCFBF;
+  }
+  
+  .item_direita_orcamento_um{
+    float: right;
+    width: 100%;
+    margin-bottom: 0.3%;
+    background: url("../img/primeira_orçamento_direita.jpg") no-repeat center; 
+    background-size: cover;
+    }
+  
+  .item_esquerda_orcamento_dois{
+    float: left;
+    width: 100%;
+  
+    background: url("../img/segunda_orçamento_esquerda.jpg") no-repeat center; 
+    background-size: cover;
+  }
+  
+  
+  .item_direita_orcamento_dois{
+    float: right;
+    width: 100%;
+    margin-bottom: 0.3%;
+    background: url("../img/segunda_orçamento_direita.jpg") no-repeat center; 
+    background-size: cover;
+  }
+
+  .texto_orcamento_item{
+    font-size: 2vw;
+    width: 100%;
+
+  }
+
+  .formulario{
+    width: 85%;
+    margin-top: -74%;
+  }
+
+  .titulo_form{
+    font-size: 5vw;
+  }
+ 
+  .sub_titulo_form{
+    font-size: 2vw !important;
+  }
+
+  .formulario input{
+    padding: 1vw 10px;
+  }
+
+  .btn_formulario{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
 
 
 }
